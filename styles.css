@@ -2,18 +2,22 @@ html, body {
 	background: black;
 }
 
-div[id*='mainBorder'] {
+div[id*='bgBorder'] {
 	padding: 10px;
+	background: blue;
+	margin: 10px;
 }
 
-#mainBorderOuter {
-	background: blue;
+#bgBorder1 {
 	background: linear-gradient(to bottom, blue, transparent);
 }
 
-#mainBorderInner {
-	background: black;
-	background: linear-gradient(to right, red, green);
+#bgBorder2 {
+	background: linear-gradient(to bottom, red, green);
+}
+
+#bgBorder3 {
+	background: linear-gradient(to bottom left, cyan, blue);
 }
 
 #main {
